@@ -4,7 +4,7 @@ source 'http://s3.amazonaws.com/rightscale_rightlink_gems_dev'
 
 gemspec
 
-gem 'right_support', '~> 1.2', :git => 'git@github.com:rightscale/right_support.git',
+gem 'right_support', '~> 2.0', :git => 'git@github.com:rightscale/right_support.git',
                      :branch => 'master'
 
 # Lock eventmachine to a published and well-tested version to avoid picking up
